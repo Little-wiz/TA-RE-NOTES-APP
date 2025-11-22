@@ -8,16 +8,6 @@
   /* text-align: center; */
 }
 
-.dark-theme {
-  background-color: #01012b;
-  color: rgba(255, 255, 255, 0.87);
-
-  --title-color: hsl( 0, 0%, 100%);
-  --text-color: hsl( 0, 0%, 80%);
-  --body-color: hsl( 0, 0%, 7%);
-  --container-color: hsl( 0, 1%, 17%);
-  --border-color: hsl( 0, 0%, 15%);
-}
 
 .sm {
   border: 2px solid var(--border);

@@ -1,0 +1,7 @@
+.content-container {
+  background-color: var(--note-bg);
+  min-height: 100%;     /* ensures full coverage */
+  padding: 1rem;
+  border-top-left-radius: 15px;   /* <-- Rounded only top-left */
+
+}

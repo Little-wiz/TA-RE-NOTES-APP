@@ -1,21 +1,23 @@
 .panel-container {
+    /* position: relative; */
     width: 10%;
     height: 100vh;
     margin: 0;
-    padding: 30px 20px;
+    padding: 40px 10px;
     border-right: 0.5px solid rgba(0, 0, 0, 0.052);
-    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.192);
+    /* box-shadow: 0 4px 80px rgba(0, 0, 0, 0.192); */
     justify-content: center;
 }
 
 .panel-head {
     display: flex;
+    justify-content: center;
     gap: 10px;
 }
 
 .panel-head > p {
   font-family: "Kanit", sans-serif;
-    font-size: x-large;
+    font-size: large;
     font-weight: 600;
 }
 
@@ -35,10 +37,30 @@
 
 .addon {
     display: flex;
-    gap: 10px;
+    gap: 8px;
+    justify-content: start;
     text-transform: uppercase;
+    font-size: small;
 }
 
-.addon-icon {
-    padding-top: 5px;
+.addon > p {
+    padding-top: 3px;
+}
+
+@media (max-width: 1293px) {
+    .panel-container {
+        width: 15%;
+    }
+}
+
+@media (max-width: 900px) {
+    .panel-container {
+        width: 20%;
+    }
+}
+
+@media (max-width: 700px) {
+    .panel-container {
+        display: none;
+    }
 }
