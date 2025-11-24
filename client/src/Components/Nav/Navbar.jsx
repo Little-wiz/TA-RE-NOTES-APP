@@ -3,7 +3,8 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="navbar-brand">My Notes</div>
+      <div className="navbar-brand">Notes / Tasks
+      </div>
 
       <div className="navbar-search">
         <input

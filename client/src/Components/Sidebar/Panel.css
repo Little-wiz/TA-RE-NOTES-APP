@@ -1,5 +1,4 @@
 .panel-container {
-    /* position: relative; */
     width: 10%;
     height: 100vh;
     margin: 0;
@@ -28,7 +27,6 @@
 .panel-main {
     margin-top: 50px;
     color: var(--color-gray);
-    /* padding: 20px; */
 }
 
 .panel-tools > div {

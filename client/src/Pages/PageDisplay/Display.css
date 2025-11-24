@@ -1,0 +1,13 @@
+.display-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: transparent; 
+  width: 100%;
+
+}
+  
+.content-wrapper {
+  flex: 1;              
+  overflow-y: auto;     
+}

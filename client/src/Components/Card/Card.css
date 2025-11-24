@@ -1,0 +1,50 @@
+.note-card-wrapper {
+    width: 250px;
+    box-shadow: 0 4px 80px rgba(0, 0, 0, 0.256);
+    max-height: 300px;
+    border-radius: 10px;
+    padding: 15px;
+    transition: 0.2s ease;
+}
+
+.note-card-wrapper:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.datestamp {
+    font-size: x-small;
+    padding-bottom: 5px;
+}
+
+.note-card-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 10px;
+    margin: 15px 0px;
+}
+
+.note-card-title > h4 {
+    font-size: large;
+    font-weight: 600;
+    /* letter-spacing: 2px; */
+}
+
+.note-card-icon {
+    width: fit-content;
+    background-color: var(--note-bg);
+    padding: 1px 7px;
+    border-radius: 30%;
+}
+
+.note-card-preview {
+    font-size: small;
+    height: 100px;
+}
+
+.last-updated {
+    display: flex;
+    font-size: small;
+    gap: 3px;
+}

@@ -1,7 +1,23 @@
 .content-container {
   background-color: var(--note-bg);
-  min-height: 100%;     /* ensures full coverage */
-  padding: 1rem;
-  border-top-left-radius: 15px;   /* <-- Rounded only top-left */
+  min-height: 100%;    
+  padding: 3rem;
+  border-top-left-radius: 15px;  
+}
 
+.recent {
+  margin-bottom: 50px;
+}
+
+/* .recent {
+} */
+
+.recent-header {
+    font-size: x-large;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+.recent-body {
+    padding: 1rem 0;
 }

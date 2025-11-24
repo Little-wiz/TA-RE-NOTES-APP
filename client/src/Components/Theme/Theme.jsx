@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-// import { themes } from '../data';
 import ThemeItems from './ThemeItems';
 import { FaCog } from 'react-icons/fa';
 import { BsMoon, BsSun } from 'react-icons/bs';

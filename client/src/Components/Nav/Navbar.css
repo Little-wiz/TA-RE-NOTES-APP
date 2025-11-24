@@ -1,6 +1,4 @@
 .navbar {
-  /* flex: 1;            THIS MAKES IT EXPAND */
-  /* flex-grow: 1; */
   border: none;
   width: 100%;
   display: flex;

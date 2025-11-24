@@ -2,9 +2,6 @@ import { IoPencilOutline } from "react-icons/io5";
 import { FaNoteSticky } from "react-icons/fa6";
 import { GoTasklist } from "react-icons/go";
 import { CiTrash } from "react-icons/ci";
-
-
-
 import "./Panel.css";
 import Themes from "../Theme/Theme";
 
@@ -14,7 +11,6 @@ const Panel = () => {
         <div className="panel-head">
             <p>TA-RE</p>
             <IoPencilOutline size={15} className="head-icon" />
-
         </div>
 
         <div className="panel-main">
@@ -31,8 +27,6 @@ const Panel = () => {
                     <CiTrash size={25} className="addon-icon3" />
                     <p>Trash</p>
                 </div>
-
-
             </div>
         </div>
 
